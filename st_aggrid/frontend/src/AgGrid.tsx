@@ -562,6 +562,7 @@ class AgGrid extends React.Component<ComponentProps, State> {
   }
 
   private onGridReady(event: GridReadyEvent) {
+    console.log("TEST GRID IS READY");
     this.setState({ api: event.api })
 
     //Is it ugly? Yes. Does it work? Yes.
