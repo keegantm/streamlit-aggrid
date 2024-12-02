@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="streamlit-aggrid",
+    name="tree-streamlit-aggrid",
     version="0.2.1",
     author="Pablo Fonseca",
     author_email="pablo.fonseca+pip@gmail.com",
